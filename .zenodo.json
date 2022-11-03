@@ -1,28 +1,35 @@
 {
-    "creators": [ 
+    "creators": [
         {
-            "orcid": "0000-0002-1825-0098",
-            "organisation": "Saxon Academy of Sciences and Humanities",
-            "name": "Pudel Rudel"
+            "orcid": "0000-0002-1825-0097",
+            "affiliation": "Saxon Academy of Sciences and Humanities",
+            "name": "Pudel"
         },
         {
-            "orcid": "0000-0002-1825-0099",
-            "organisation": "Saxon Academy of Sciences and Humanities",
-            "name": "Cecilia Graiff"
+            "orcid": "0000-0002-1825-0097",
+            "affiliation": "Saxon Academy of Sciences and Humanities",
+            "name": "Graiff, Cecilia"
         }
     ],
-    "SPDX-license": "Apache-2.0",
-    "title": "My Awesome Data Model",
-    "rights": "Saxon Academy of Sciences and Humanities",
+
+    "license": "Apache-2.0",
+
+    "title": "Pudel: Publication service for academic vocabularies and data models",
+
     "related_identifiers": [
         {
             "scheme": "doi",
-            "uri":"www.pudel.pu/mydata",
-            "relation": "isDocumentedBy"
+            "identifier": "10.1234/software.paper.5678",
+            "relation": "isDocumentedBy",
+            "resource_type": "publication-article"
         }
     ],
-    "related_data": [
-        {"research field": "digital humanities"},
-        {"description":"Pudel is a publication service for academic vocabularies and data models."}
-    ]
+
+    "keywords": ["Vocabulary", "Ontology", "Data Model"],
+
+    "communities": [
+        {"identifier": "software-cats"}
+    ],
+
+    "grants": [{"id":"777541"}]
 }
