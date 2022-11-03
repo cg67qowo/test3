@@ -17,7 +17,7 @@
     "related_identifiers": [
         {
             "scheme": "doi",
-            "uri":"www.pudel.pu/mydata"
+            "uri":"www.pudel.pu/mydata",
             "relation": "isDocumentedBy"
         }
     ],
